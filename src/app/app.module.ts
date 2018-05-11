@@ -4,12 +4,9 @@ import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
+import { MaterialModule } from './material.module';
 
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatButtonModule } from '@angular/material/button';
-import { MatSidenavModule } from '@angular/material/sidenav';
-import { MatPaginatorModule } from '@angular/material/paginator';
-import { MatProgressBarModule } from '@angular/material/progress-bar';
+
 
 
 
@@ -21,11 +18,8 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
   ],
   imports: [
     BrowserModule,
-    MatToolbarModule,
-    MatButtonModule,
-    MatSidenavModule,
-    MatPaginatorModule,
-    MatProgressBarModule
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
