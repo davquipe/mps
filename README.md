@@ -1,12 +1,17 @@
 # Mapas
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
-## Development server
+## Servidor de desarrollo
 ```
-`ng new mapa`
+ng new mapa`
 `cd mapa`
 `ng serve -o`
+
+Para especificar que importe en el app.module
+
+`ng g c components/mapa --module=app.module --spec=false`
+
 ```
 
 Run `ng serve` for a dev server. Navigate to
@@ -22,6 +27,6 @@ Run `ng generate component component-name` to generate a new component. You can 
 ### FFF
 
 ## 
-* [Facebook](http://www.facebook.com) - fb
-* [Youtube](https://www.youtube.com/) - Yuot...
+* [Material](https://material.angular.io/) v6.0.1
+* [GitHub](https://github.com/angular/material2) 
 * [](https://rometools.github.io/rome/) - Used to generate RSS Feeds
